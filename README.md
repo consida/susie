@@ -1,3 +1,7 @@
+**IMPORTANT**
+We needed to make a fork of the original repo because the handling of the events was incompatible with how we need the data to be structured. This fork will only be needed temporarily, hopefully, as we should probably use the supported hapi plugin to do this kinda stuff, i.e. @hapi/nes. This fork is needed essentially while we migrate hapi versions, from 16 to 20.
+
+
 # SuSiE - Server-Sent Events with hapi
 [![Build Status](https://travis-ci.org/mtharrison/susie.svg)](https://travis-ci.org/mtharrison/susie)
 
